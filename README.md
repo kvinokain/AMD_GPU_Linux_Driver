@@ -4,6 +4,6 @@ Use this command:
 
 curl -o amd.sh https://raw.githubusercontent.com/kvinokain/AMD_GPU_Linux_Driver/main/amd.sh 
 
-sudo chmod +x amdinstall.sh
+sudo chmod +x amd.sh
 
-./amdinstall.sh
+./amd.sh
