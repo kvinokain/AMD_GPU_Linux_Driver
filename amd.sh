@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Проверка наличия прав sudo
+# Check sudo
 if [ $(id -u) -ne 0 ]; then
   echo "You need sudo. Try sudo ./amd.sh (sudo)."
   exit 1
